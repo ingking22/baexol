@@ -8,12 +8,12 @@ export function Contact() {
           04 — Contact
         </p>
         <h2 className="mt-8 max-w-3xl font-display text-4xl font-medium leading-[1.2] text-balance break-keep text-graphite sm:text-5xl">
-          견고하게 동작하는 제품이
+          아이디어를 실서비스로
           <br />
-          <span className="text-silver">필요하다면.</span>
+          <span className="text-silver">만들 사람이 필요하다면.</span>
         </h2>
         <p className="mt-6 text-lg text-slate">
-          {"Let's build reliable systems together."}
+          {"From idea to production — let's build it together."}
         </p>
       </Reveal>
 
