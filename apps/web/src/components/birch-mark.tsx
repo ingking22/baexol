@@ -50,3 +50,30 @@ export function BirchMark({ className = "" }: { className?: string }) {
     </svg>
   );
 }
+
+/** Compact birch-X glyph for the nav lockup. Inherits `currentColor`. */
+export function BirchGlyph({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      aria-hidden="true"
+      role="presentation"
+    >
+      <g
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M5 4 L19 20" />
+        <path d="M19 4 L5 20" />
+        <path d="M5 4 L3.2 5.8 M5 4 L7 3.2" />
+        <path d="M19 4 L20.8 5.8 M19 4 L17 3.2" />
+        <path d="M5 20 L3.2 18.2 M5 20 L7 20.8" />
+        <path d="M19 20 L20.8 18.2 M19 20 L17 20.8" />
+      </g>
+    </svg>
+  );
+}

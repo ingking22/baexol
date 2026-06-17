@@ -4,8 +4,8 @@
   <h1>BAEXOL</h1>
 
   <p><strong>Full-Stack AI Engineer</strong></p>
-  <p>기획부터 AI 서빙까지, 제품의 처음과 끝을 책임집니다.<br/>
-  <em>Product planning to AI serving — designed, built, and shipped end to end.</em></p>
+  <p>초기 아키텍처 설계부터 고성능 AI 서빙까지, 제품의 처음과 끝을 책임집니다.<br/>
+  <em>From initial architecture to high-performance AI serving — taking full ownership of the product lifecycle.</em></p>
 
   <p>
     <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
@@ -21,7 +21,7 @@
 
 ## 👋 About
 
-제품 **기획**과 **UI/UX 설계**부터 **시스템 아키텍처**, **풀스택 구현**, 그리고 단위 테스트 단계의 **AI 모델을 실서비스 수준으로 고도화**해 **API·서빙**까지 — 한 사람이 하나의 흐름으로 책임집니다.
+프론트엔드부터 **AI 추론 서빙**까지, 하나의 흐름으로 통제 가능한 시스템을 만듭니다. 프로토타입에서 실서비스로 — **범위와 구조를 스스로 정의하며** 시스템을 키우는 방식으로 일합니다. 화려한 기능보다 **방어 가능한 견고함(Zero-Defect)** 을 우선합니다.
 
 화려한 기능보다 **방어 가능한 견고함(Zero-Defect)** 을 우선합니다. 병목 없는 클린 아키텍처, 명시적인 경계, 실패를 가정한 설계.
 
@@ -54,7 +54,7 @@ baexol/
 | ----------- | -------------------------------------------------- |
 | Frontend    | Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4 |
 | Backend     | FastAPI, Python 3.12+, Hexagonal Architecture      |
-| Realtime/AI | WebRTC · WHEP, GStreamer, AI 모델 서빙·고도화        |
+| Realtime/AI | WebRTC · WHEP, GStreamer, AI 모델 통합·추론 최적화·서빙 |
 | Tooling     | pnpm workspaces, ESLint, Ruff                      |
 | Deploy      | Vercel (web) · `baexol.dev`                        |
 

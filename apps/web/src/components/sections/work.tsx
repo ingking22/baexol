@@ -54,7 +54,7 @@ export function Work() {
         {PROJECTS.map((p, i) => (
           <Reveal key={p.index} delay={i * 90}>
             <article
-              className={`surface group flex h-full flex-col rounded-2xl p-7 transition-transform duration-500 hover:-translate-y-1 ${
+              className={`surface group flex h-full flex-col rounded-2xl p-7 transition-all duration-500 hover:-translate-y-1 hover:border-ice hover:shadow-[0_18px_50px_-24px_rgba(20,22,27,0.3)] ${
                 p.upcoming ? "opacity-60" : ""
               } ${p.featured ? "lg:col-span-2" : ""}`}
             >

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { BirchGlyph } from "@/components/birch-mark";
 
 const LINKS = [
   { href: "#work", label: "Work" },
@@ -30,9 +31,12 @@ export function SiteNav() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a
           href="#top"
-          className="font-mono text-sm tracking-[0.32em] text-graphite transition-opacity hover:opacity-60"
+          className="group flex items-center gap-2.5 transition-opacity hover:opacity-70"
         >
-          BAEXOL
+          <BirchGlyph className="h-[18px] w-[18px] text-silver transition-colors group-hover:text-graphite" />
+          <span className="font-mono text-sm tracking-[0.32em] text-graphite">
+            BAEXOL
+          </span>
         </a>
         <ul className="hidden items-center gap-8 sm:flex">
           {LINKS.map((l) => (

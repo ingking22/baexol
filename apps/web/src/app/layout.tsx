@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: "%s · BAEXOL",
   },
   description:
-    "Full-stack AI engineer — from product planning and architecture to model productionization and serving, shipped end to end to a zero-defect standard.",
+    "Full-stack AI engineer — from initial architecture to high-performance AI serving, taking full ownership of the product lifecycle.",
   keywords: [
     "BAEXOL",
     "Full-Stack AI Engineer",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "BAEXOL — Full-Stack AI Engineer",
     description:
-      "From product planning and architecture to AI model productionization and serving — shipped end to end.",
+      "From initial architecture to high-performance AI serving — taking full ownership of the product lifecycle.",
     url: "https://baexol.dev",
     siteName: "BAEXOL",
     locale: "ko_KR",

@@ -21,7 +21,7 @@ export function Hero() {
           className="rise mt-8 max-w-4xl font-display font-medium leading-[1.18] text-balance break-keep text-graphite text-[clamp(2rem,5vw,3.5rem)]"
           style={{ animationDelay: "180ms" }}
         >
-          기획부터 AI 서빙까지,
+          초기 아키텍처 설계부터 고성능 AI 서빙까지,
           <br />
           <span className="text-silver">제품의 처음과 끝을 책임집니다.</span>
         </h1>
@@ -30,7 +30,7 @@ export function Hero() {
           className="rise mt-7 max-w-xl text-base leading-relaxed text-slate sm:text-lg"
           style={{ animationDelay: "320ms" }}
         >
-          Product planning to AI serving — designed, built, and shipped end to end.
+          From initial architecture to high-performance AI serving, taking full ownership of the product lifecycle.
         </p>
 
         <div

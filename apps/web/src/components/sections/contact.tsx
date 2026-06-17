@@ -8,7 +8,7 @@ export function Contact() {
           04 — Contact
         </p>
         <h2 className="mt-8 max-w-3xl font-display text-4xl font-medium leading-[1.2] text-balance break-keep text-graphite sm:text-5xl">
-          견고하게 동작하는 아키텍처가
+          견고하게 동작하는 제품이
           <br />
           <span className="text-silver">필요하다면.</span>
         </h2>
