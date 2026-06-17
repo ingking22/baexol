@@ -1,0 +1,13 @@
+{
+  "name": "baexol-portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "description": "BAEXOL — Portfolio monorepo (Next.js web + FastAPI hexagonal api)",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint"
+  }
+}

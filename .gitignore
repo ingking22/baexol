@@ -1,0 +1,47 @@
+# ───────────── 비-VCS 잡파일 모음 (번들 문서·로고 원본 등) ─────────────
+_local/
+
+# ───────────── Claude Code 설정 번들 (루트 유지·미커밋) ─────────────
+.claude/
+.agents/
+claude_setting.sh
+logs/
+
+# ───────────── 로컬 작업 노트 (미커밋) ─────────────
+.claude-work/
+
+# ───────────── 자동생성 AI 가이드 md (불필요) ─────────────
+AGENTS.md
+CLAUDE.md
+
+# ───────────── 환경 / 비밀 ─────────────
+.env
+.env.*
+!.env.example
+*.local
+secrets.json
+
+# ───────────── Node / Next.js ─────────────
+node_modules/
+.next/
+out/
+build/
+.vercel
+*.tsbuildinfo
+
+# ───────────── Python / FastAPI ─────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ───────────── OS / 에디터 ─────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
