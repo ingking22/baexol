@@ -8,9 +8,9 @@ export function Contact() {
           04 — Contact
         </p>
         <h2 className="mt-8 max-w-3xl font-display text-4xl font-medium leading-[1.2] text-balance break-keep text-graphite sm:text-5xl">
-          아이디어를 실서비스로
+          아이디어를 실서비스로 진화시킬
           <br />
-          <span className="text-silver">만들 사람이 필요하다면.</span>
+          <span className="text-silver">엔지니어가 필요하다면.</span>
         </h2>
         <p className="mt-6 text-lg text-slate">
           {"From idea to production — let's build it together."}
