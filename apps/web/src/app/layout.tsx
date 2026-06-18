@@ -28,7 +28,7 @@ const mono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://baexol.dev"),
+  metadataBase: new URL("https://www.baexol.dev"),
   title: {
     default: "BAEXOL — Full-Stack AI Engineer",
     template: "%s · BAEXOL",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: "BAEXOL — Full-Stack AI Engineer",
     description:
       "From initial architecture to high-performance AI serving — taking full ownership of the product lifecycle.",
-    url: "https://baexol.dev",
+    url: "https://www.baexol.dev",
     siteName: "BAEXOL",
     locale: "ko_KR",
     type: "website",
