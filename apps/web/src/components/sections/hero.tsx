@@ -7,7 +7,7 @@ export function Hero() {
       className="relative flex min-h-[100svh] flex-col justify-center overflow-hidden px-6"
     >
       {/* decorative mark — quiet side accent, not a background watermark */}
-      <BirchMark className="drift pointer-events-none absolute right-[-10%] top-1/2 h-[58vmin] w-[58vmin] -translate-y-1/2 opacity-[0.05]" />
+      <BirchMark className="drift pointer-events-none absolute right-[-10%] top-1/2 h-[58vmin] w-[58vmin] -translate-y-1/2 opacity-[0.12]" />
 
       <div className="relative mx-auto w-full max-w-6xl">
         <p
