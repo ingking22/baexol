@@ -20,11 +20,11 @@ export function Contact() {
       <Reveal delay={120}>
         <div className="mt-12 flex flex-wrap items-center gap-x-10 gap-y-4">
           <a
-            href="mailto:ybj19880612@gmail.com"
+            href="mailto:ingking22@baexol.dev"
             className="group inline-flex items-center gap-2 text-lg text-graphite"
           >
             <span className="border-b border-frost transition-colors group-hover:border-graphite">
-              ybj19880612@gmail.com
+              ingking22@baexol.dev
             </span>
           </a>
           <a

@@ -74,7 +74,7 @@ uvicorn baexol_api.main:app --reload   # http://localhost:8000/docs
 
 ## 📫 Contact
 
-- **Email** · ybj19880612@gmail.com
+- **Email** · ingking22@baexol.dev
 - **GitHub** · [@ingking22](https://github.com/ingking22)
 
 ---

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Geist_Mono } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 // Pretendard — 한글 + 라틴 본문 (self-hosted variable)
@@ -70,7 +71,10 @@ export default function RootLayout({
       lang="ko"
       className={`${pretendard.variable} ${serif.variable} ${mono.variable} h-full antialiased`}
     >
-      <body className="bg-snowfield grain min-h-full flex flex-col">{children}</body>
+      <body className="bg-snowfield grain min-h-full flex flex-col">
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
