@@ -52,6 +52,12 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "BAEXOL — Full-Stack AI Engineer",
+    description:
+      "From initial architecture to high-performance AI serving — taking full ownership of the product lifecycle.",
+  },
 };
 
 export default function RootLayout({
