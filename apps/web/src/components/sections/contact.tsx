@@ -2,18 +2,22 @@ import { Reveal } from "@/components/reveal";
 
 export function Contact() {
   return (
-    <section id="contact" className="relative mx-auto max-w-6xl px-6 py-28 sm:py-40">
+    <section id="contact" className="relative mx-auto max-w-6xl px-6 py-20 sm:py-28">
       <Reveal>
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-silver">
-          04 — Contact
+          05 — Contact
         </p>
-        <h2 className="mt-8 max-w-3xl font-display text-4xl font-medium leading-[1.2] text-balance break-keep text-graphite sm:text-5xl">
-          아이디어를 실서비스로 진화시킬
+        <h2 className="mt-8 max-w-3xl font-display text-3xl font-medium leading-[1.2] text-balance break-keep text-graphite sm:text-4xl">
+          좋은 시스템은
           <br />
-          <span className="text-silver">엔지니어가 필요하다면.</span>
+          <span className="text-silver">좋은 팀에서 나옵니다.</span>
         </h2>
         <p className="mt-6 text-lg text-slate">
-          {"From idea to production — let's build it together."}
+          {"Great systems come from great teams."}
+        </p>
+        <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate">
+          제 경험이 팀의 비전을 현실로 만드는 강력한 동력이 되길 기대합니다.
+          가벼운 대화라도 언제나 환영합니다.
         </p>
       </Reveal>
 

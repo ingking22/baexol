@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s · BAEXOL",
   },
   description:
-    "Full-stack AI engineer — from initial architecture to high-performance AI serving, taking full ownership of the product lifecycle.",
+    "Full-stack AI engineer — building scalable architecture and reliable AI serving, turning team ideas into solid, maintainable products.",
   keywords: [
     "BAEXOL",
     "Full-Stack AI Engineer",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "BAEXOL — Full-Stack AI Engineer",
     description:
-      "From initial architecture to high-performance AI serving — taking full ownership of the product lifecycle.",
+      "Building scalable architecture and reliable AI serving — turning team ideas into solid, maintainable products.",
     url: "https://www.baexol.dev",
     siteName: "BAEXOL",
     locale: "ko_KR",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BAEXOL — Full-Stack AI Engineer",
     description:
-      "From initial architecture to high-performance AI serving — taking full ownership of the product lifecycle.",
+      "Building scalable architecture and reliable AI serving — turning team ideas into solid, maintainable products.",
   },
 };
 

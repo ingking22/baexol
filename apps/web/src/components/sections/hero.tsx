@@ -18,19 +18,19 @@ export function Hero() {
         </p>
 
         <h1
-          className="rise mt-8 max-w-4xl font-display font-medium leading-[1.18] text-balance break-keep text-graphite text-[clamp(2rem,5vw,3.5rem)]"
+          className="rise mt-6 max-w-6xl font-display font-medium leading-[1.25] text-balance break-keep text-graphite text-[clamp(2rem,5vw,3.5rem)]"
           style={{ animationDelay: "180ms" }}
         >
-          초기 아키텍처 설계부터 고성능 AI 서빙까지,
+          확장 가능한 아키텍처, 병목 없는 AI 서빙.
           <br />
-          <span className="text-silver">제품의 처음과 끝을 책임집니다.</span>
+          <span className="text-silver">팀의 비전을 견고한 프로덕트로 완성합니다.</span>
         </h1>
 
         <p
           className="rise mt-7 max-w-xl text-base leading-relaxed text-slate sm:text-lg"
           style={{ animationDelay: "320ms" }}
         >
-          From initial architecture to high-performance AI serving, taking full ownership of the product lifecycle.
+          Building predictable systems that scale with the team.
         </p>
 
         <div
@@ -47,7 +47,7 @@ export function Hero() {
             href="#contact"
             className="rounded-full border hairline px-6 py-3 text-sm font-medium text-graphite transition-colors hover:bg-snow-2"
           >
-            Get in touch
+            Contact
           </a>
         </div>
       </div>

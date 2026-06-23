@@ -17,10 +17,10 @@ const GROUPS: { label: string; items: string[] }[] = [
 
 export function Stack() {
   return (
-    <section id="stack" className="relative mx-auto max-w-6xl px-6 py-28 sm:py-36">
+    <section id="stack" className="relative mx-auto max-w-6xl px-6 py-20 sm:py-28">
       <Reveal>
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-silver">
-          03 — Stack
+          04 — Stack
         </p>
         <div className="divider mt-6" />
       </Reveal>

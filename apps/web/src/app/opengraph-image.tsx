@@ -56,8 +56,8 @@ export default async function OpengraphImage() {
               color: "#474d57",
             }}
           >
-            From initial architecture to high-performance AI serving — taking full
-            ownership of the product lifecycle.
+            Building scalable architecture and reliable AI serving — turning team
+            ideas into solid, maintainable products.
           </div>
         </div>
 
